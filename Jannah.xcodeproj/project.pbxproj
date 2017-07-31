@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B734BD211F2FA98B00AB4EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734BD201F2FA98B00AB4EE0 /* AppDelegate.swift */; };
+		B734BD231F2FA98B00AB4EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734BD221F2FA98B00AB4EE0 /* ViewController.swift */; };
+		B734BD261F2FA98B00AB4EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B734BD241F2FA98B00AB4EE0 /* Main.storyboard */; };
+		B734BD291F2FA98B00AB4EE0 /* Jannah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B734BD271F2FA98B00AB4EE0 /* Jannah.xcdatamodeld */; };
+		B734BD2B1F2FA98B00AB4EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B734BD2A1F2FA98B00AB4EE0 /* Assets.xcassets */; };
+		B734BD2E1F2FA98B00AB4EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B734BD2C1F2FA98B00AB4EE0 /* LaunchScreen.storyboard */; };
+		B734BD391F2FA98B00AB4EE0 /* JannahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734BD381F2FA98B00AB4EE0 /* JannahTests.swift */; };
+		B734BD441F2FA98B00AB4EE0 /* JannahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B734BD431F2FA98B00AB4EE0 /* JannahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B734BD351F2FA98B00AB4EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B734BD151F2FA98A00AB4EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B734BD1C1F2FA98B00AB4EE0;
+			remoteInfo = Jannah;
+		};
+		B734BD401F2FA98B00AB4EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B734BD151F2FA98A00AB4EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B734BD1C1F2FA98B00AB4EE0;
+			remoteInfo = Jannah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B734BD1D1F2FA98B00AB4EE0 /* Jannah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jannah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B734BD201F2FA98B00AB4EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B734BD221F2FA98B00AB4EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B734BD251F2FA98B00AB4EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B734BD281F2FA98B00AB4EE0 /* Jannah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jannah.xcdatamodel; sourceTree = "<group>"; };
+		B734BD2A1F2FA98B00AB4EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B734BD2D1F2FA98B00AB4EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B734BD2F1F2FA98B00AB4EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B734BD341F2FA98B00AB4EE0 /* JannahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JannahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B734BD381F2FA98B00AB4EE0 /* JannahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JannahTests.swift; sourceTree = "<group>"; };
+		B734BD3A1F2FA98B00AB4EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B734BD3F1F2FA98B00AB4EE0 /* JannahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JannahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B734BD431F2FA98B00AB4EE0 /* JannahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JannahUITests.swift; sourceTree = "<group>"; };
+		B734BD451F2FA98B00AB4EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B734BD1A1F2FA98B00AB4EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD311F2FA98B00AB4EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD3C1F2FA98B00AB4EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B734BD141F2FA98A00AB4EE0 = {
+			isa = PBXGroup;
+			children = (
+				B734BD1F1F2FA98B00AB4EE0 /* Jannah */,
+				B734BD371F2FA98B00AB4EE0 /* JannahTests */,
+				B734BD421F2FA98B00AB4EE0 /* JannahUITests */,
+				B734BD1E1F2FA98B00AB4EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B734BD1E1F2FA98B00AB4EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B734BD1D1F2FA98B00AB4EE0 /* Jannah.app */,
+				B734BD341F2FA98B00AB4EE0 /* JannahTests.xctest */,
+				B734BD3F1F2FA98B00AB4EE0 /* JannahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B734BD1F1F2FA98B00AB4EE0 /* Jannah */ = {
+			isa = PBXGroup;
+			children = (
+				B734BD201F2FA98B00AB4EE0 /* AppDelegate.swift */,
+				B734BD221F2FA98B00AB4EE0 /* ViewController.swift */,
+				B734BD241F2FA98B00AB4EE0 /* Main.storyboard */,
+				B734BD2A1F2FA98B00AB4EE0 /* Assets.xcassets */,
+				B734BD2C1F2FA98B00AB4EE0 /* LaunchScreen.storyboard */,
+				B734BD2F1F2FA98B00AB4EE0 /* Info.plist */,
+				B734BD271F2FA98B00AB4EE0 /* Jannah.xcdatamodeld */,
+			);
+			path = Jannah;
+			sourceTree = "<group>";
+		};
+		B734BD371F2FA98B00AB4EE0 /* JannahTests */ = {
+			isa = PBXGroup;
+			children = (
+				B734BD381F2FA98B00AB4EE0 /* JannahTests.swift */,
+				B734BD3A1F2FA98B00AB4EE0 /* Info.plist */,
+			);
+			path = JannahTests;
+			sourceTree = "<group>";
+		};
+		B734BD421F2FA98B00AB4EE0 /* JannahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B734BD431F2FA98B00AB4EE0 /* JannahUITests.swift */,
+				B734BD451F2FA98B00AB4EE0 /* Info.plist */,
+			);
+			path = JannahUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B734BD1C1F2FA98B00AB4EE0 /* Jannah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B734BD481F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "Jannah" */;
+			buildPhases = (
+				B734BD191F2FA98B00AB4EE0 /* Sources */,
+				B734BD1A1F2FA98B00AB4EE0 /* Frameworks */,
+				B734BD1B1F2FA98B00AB4EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jannah;
+			productName = Jannah;
+			productReference = B734BD1D1F2FA98B00AB4EE0 /* Jannah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B734BD331F2FA98B00AB4EE0 /* JannahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B734BD4B1F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "JannahTests" */;
+			buildPhases = (
+				B734BD301F2FA98B00AB4EE0 /* Sources */,
+				B734BD311F2FA98B00AB4EE0 /* Frameworks */,
+				B734BD321F2FA98B00AB4EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B734BD361F2FA98B00AB4EE0 /* PBXTargetDependency */,
+			);
+			name = JannahTests;
+			productName = JannahTests;
+			productReference = B734BD341F2FA98B00AB4EE0 /* JannahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B734BD3E1F2FA98B00AB4EE0 /* JannahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B734BD4E1F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "JannahUITests" */;
+			buildPhases = (
+				B734BD3B1F2FA98B00AB4EE0 /* Sources */,
+				B734BD3C1F2FA98B00AB4EE0 /* Frameworks */,
+				B734BD3D1F2FA98B00AB4EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B734BD411F2FA98B00AB4EE0 /* PBXTargetDependency */,
+			);
+			name = JannahUITests;
+			productName = JannahUITests;
+			productReference = B734BD3F1F2FA98B00AB4EE0 /* JannahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B734BD151F2FA98A00AB4EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ahmad Younis";
+				TargetAttributes = {
+					B734BD1C1F2FA98B00AB4EE0 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					B734BD331F2FA98B00AB4EE0 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = B734BD1C1F2FA98B00AB4EE0;
+					};
+					B734BD3E1F2FA98B00AB4EE0 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = B734BD1C1F2FA98B00AB4EE0;
+					};
+				};
+			};
+			buildConfigurationList = B734BD181F2FA98A00AB4EE0 /* Build configuration list for PBXProject "Jannah" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B734BD141F2FA98A00AB4EE0;
+			productRefGroup = B734BD1E1F2FA98B00AB4EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B734BD1C1F2FA98B00AB4EE0 /* Jannah */,
+				B734BD331F2FA98B00AB4EE0 /* JannahTests */,
+				B734BD3E1F2FA98B00AB4EE0 /* JannahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B734BD1B1F2FA98B00AB4EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734BD2E1F2FA98B00AB4EE0 /* LaunchScreen.storyboard in Resources */,
+				B734BD2B1F2FA98B00AB4EE0 /* Assets.xcassets in Resources */,
+				B734BD261F2FA98B00AB4EE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD321F2FA98B00AB4EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD3D1F2FA98B00AB4EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B734BD191F2FA98B00AB4EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734BD231F2FA98B00AB4EE0 /* ViewController.swift in Sources */,
+				B734BD291F2FA98B00AB4EE0 /* Jannah.xcdatamodeld in Sources */,
+				B734BD211F2FA98B00AB4EE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD301F2FA98B00AB4EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734BD391F2FA98B00AB4EE0 /* JannahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B734BD3B1F2FA98B00AB4EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B734BD441F2FA98B00AB4EE0 /* JannahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B734BD361F2FA98B00AB4EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B734BD1C1F2FA98B00AB4EE0 /* Jannah */;
+			targetProxy = B734BD351F2FA98B00AB4EE0 /* PBXContainerItemProxy */;
+		};
+		B734BD411F2FA98B00AB4EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B734BD1C1F2FA98B00AB4EE0 /* Jannah */;
+			targetProxy = B734BD401F2FA98B00AB4EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B734BD241F2FA98B00AB4EE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B734BD251F2FA98B00AB4EE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B734BD2C1F2FA98B00AB4EE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B734BD2D1F2FA98B00AB4EE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B734BD461F2FA98B00AB4EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B734BD471F2FA98B00AB4EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B734BD491F2FA98B00AB4EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jannah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.Jannah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B734BD4A1F2FA98B00AB4EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jannah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.Jannah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B734BD4C1F2FA98B00AB4EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JannahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.JannahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jannah.app/Jannah";
+			};
+			name = Debug;
+		};
+		B734BD4D1F2FA98B00AB4EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JannahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.JannahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jannah.app/Jannah";
+			};
+			name = Release;
+		};
+		B734BD4F1F2FA98B00AB4EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JannahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.JannahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jannah;
+			};
+			name = Debug;
+		};
+		B734BD501F2FA98B00AB4EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JannahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yayacuisine.JannahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jannah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B734BD181F2FA98A00AB4EE0 /* Build configuration list for PBXProject "Jannah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734BD461F2FA98B00AB4EE0 /* Debug */,
+				B734BD471F2FA98B00AB4EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B734BD481F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "Jannah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734BD491F2FA98B00AB4EE0 /* Debug */,
+				B734BD4A1F2FA98B00AB4EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B734BD4B1F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "JannahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734BD4C1F2FA98B00AB4EE0 /* Debug */,
+				B734BD4D1F2FA98B00AB4EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B734BD4E1F2FA98B00AB4EE0 /* Build configuration list for PBXNativeTarget "JannahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B734BD4F1F2FA98B00AB4EE0 /* Debug */,
+				B734BD501F2FA98B00AB4EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B734BD271F2FA98B00AB4EE0 /* Jannah.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B734BD281F2FA98B00AB4EE0 /* Jannah.xcdatamodel */,
+			);
+			currentVersion = B734BD281F2FA98B00AB4EE0 /* Jannah.xcdatamodel */;
+			path = Jannah.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B734BD151F2FA98A00AB4EE0 /* Project object */;
+}
